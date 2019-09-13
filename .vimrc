@@ -1,20 +1,16 @@
-set nocompatible	" Require ViM
-filetype off		" required
-
+syntax on
 set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+set tabstop=6 softtabstop=0 expandtab shiftwidth=3 smarttab
+set autoindent
+set path+=**
+set wildmenu
+set hlsearch
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
 
-" Let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-
-" All the plug ins should be here
-"
-"
-Plugin 'Valloric/YouCompleteMe'
-
-call vundle#end()	" required
-filetype plugin indent on
-
-let g:ycm_confirm_extra_conf = 0
+" Mouse support if works
+set mouse=a
