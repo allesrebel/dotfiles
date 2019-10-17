@@ -9,6 +9,6 @@ set fileformats=unix,dos,mac
 set path+=**
 set wildmenu
 
-" Mouse support if works
-set mouse=a
+colorscheme default
 
+set exrc
