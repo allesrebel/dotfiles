@@ -8,6 +8,7 @@ set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
 set path+=**
 set wildmenu
+set autoread
 
 colorscheme default
 
