@@ -2,6 +2,7 @@ syntax on
 " Note: Indent works with autoindent
 filetype plugin indent on
 set autoindent
+set wrap linebreak
 
 " Just makes it a little less crazy horizontially
 " and insert tabs when I want them, and spaces
