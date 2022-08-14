@@ -19,4 +19,4 @@ set autoread
 colorscheme default
 
 set exrc
-source dotfiles/cscope_maps.vim
+source ~/dotfiles/cscope_maps.vim
